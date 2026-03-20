@@ -2,10 +2,10 @@
   "$schema": "../../../specs/erc7730-v1.schema.json",
   "includes": "../calldata-lagoon-vaults.json",
   "metadata": {
-    "owner": "Lagoon",
+    "owner": "Almanak",
     "info": {
-      "legalName": "Lagoon Finance",
-      "url": "https://lagoon.finance/"
+      "legalName": "Almanak",
+      "url": "https://almanak.co/"
     },
     "constants": {
       "underlyingToken": "0xa0b86991c6218b36c1d19d4a2e9eb0ce3606eb48",
