@@ -1,0 +1,26 @@
+{
+  "$schema": "../../../specs/erc7730-v1.schema.json",
+  "includes": "../calldata-lagoon-v050-vaults.json",
+  "metadata": {
+    "owner": "Tulipa Capital",
+    "info": {
+      "legalName": "Tulipa Capital",
+      "url": "https://tulipa.capital"
+    },
+    "constants": {
+      "underlyingToken": "0xc02aaa39b223fe8d0a0e5c4f27ead9083c756cc2",
+      "underlyingTicker": "WETH",
+      "vaultTicker": "rock.loopedETH"
+    }
+  },
+  "context": {
+    "contract": {
+      "deployments": [
+        {
+          "chainId": 1,
+          "address": "0x7a12d4b719f5aa479ecd60defed909fb2a37e428"
+        }
+      ]
+    }
+  }
+}
