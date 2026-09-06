@@ -2,15 +2,15 @@
   "$schema": "../../../specs/erc7730-v1.schema.json",
   "includes": "../calldata-lagoon-v050-vaults.json",
   "metadata": {
-    "owner": "9Summits",
+    "owner": "Gami",
     "info": {
-      "legalName": "9Summits",
-      "url": "https://9summits.io"
+      "legalName": "Gami",
+      "url": "https://gamilabs.io/"
     },
     "constants": {
       "underlyingToken": "0x2260fac5e5542a773aa44fbcfedf7c193bc2c599",
       "underlyingTicker": "WBTC",
-      "vaultTicker": "turtleKatanaWBTC"
+      "vaultTicker": "xBTCY"
     }
   },
   "context": {
@@ -18,7 +18,7 @@
       "deployments": [
         {
           "chainId": 1,
-          "address": "0x423b469268b15821107c38d1e1f702877219bc52"
+          "address": "0xb34447f729abfd21b3d8997fedcb07e86268a2b3"
         }
       ]
     }

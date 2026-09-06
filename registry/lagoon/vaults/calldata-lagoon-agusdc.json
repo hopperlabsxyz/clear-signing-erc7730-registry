@@ -2,23 +2,23 @@
   "$schema": "../../../specs/erc7730-v1.schema.json",
   "includes": "../calldata-lagoon-v050-vaults.json",
   "metadata": {
-    "owner": "DeTrade",
+    "owner": "Gami",
     "info": {
-      "legalName": "DeTrade",
-      "url": "https://detrade.fund/"
+      "legalName": "Gami",
+      "url": "https://gamilabs.io/"
     },
     "constants": {
-      "underlyingToken": "0x833589fcd6edb6e08f4c7c32d4f71b54bda02913",
+      "underlyingToken": "0xb97ef9ef8734c71904d8002f8b6bc66dd9c48a6e",
       "underlyingTicker": "USDC",
-      "vaultTicker": "DTUSDC"
+      "vaultTicker": "agUSDC"
     }
   },
   "context": {
     "contract": {
       "deployments": [
         {
-          "chainId": 8453,
-          "address": "0x8092ca384d44260ea4feaf7457b629b8dc6f88f0"
+          "chainId": 43114,
+          "address": "0xb3a2bcb30c1460d88db18b42a29fae2399952874"
         }
       ]
     }

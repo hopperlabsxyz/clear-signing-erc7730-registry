@@ -2,15 +2,15 @@
   "$schema": "../../../specs/erc7730-v1.schema.json",
   "includes": "../calldata-lagoon-v050-vaults.json",
   "metadata": {
-    "owner": "9Summits",
+    "owner": "Alchemix",
     "info": {
-      "legalName": "9Summits",
-      "url": "https://9summits.io"
+      "legalName": "Alchemix",
+      "url": "https://alchemix.fi/"
     },
     "constants": {
       "underlyingToken": "0xc02aaa39b223fe8d0a0e5c4f27ead9083c756cc2",
       "underlyingTicker": "WETH",
-      "vaultTicker": "turtleKatanaWETH"
+      "vaultTicker": "alchemixEcoEth"
     }
   },
   "context": {
@@ -18,7 +18,7 @@
       "deployments": [
         {
           "chainId": 1,
-          "address": "0xbca723c30d55f0915e32019a95aa29ea21fd555c"
+          "address": "0xa6e8d7871153d030c918a0ca5d33f90779967484"
         }
       ]
     }

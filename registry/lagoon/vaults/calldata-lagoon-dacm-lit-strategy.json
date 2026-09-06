@@ -2,23 +2,23 @@
   "$schema": "../../../specs/erc7730-v1.schema.json",
   "includes": "../calldata-lagoon-v050-vaults.json",
   "metadata": {
-    "owner": "DeTrade",
+    "owner": "DACM",
     "info": {
-      "legalName": "DeTrade",
-      "url": "https://detrade.fund/"
+      "legalName": "DACM",
+      "url": "https://dacm.io"
     },
     "constants": {
-      "underlyingToken": "0x833589fcd6edb6e08f4c7c32d4f71b54bda02913",
+      "underlyingToken": "0xaf88d065e77c8cc2239327c5edb3a432268e5831",
       "underlyingTicker": "USDC",
-      "vaultTicker": "DTUSDC"
+      "vaultTicker": "DACM LIT Strategy"
     }
   },
   "context": {
     "contract": {
       "deployments": [
         {
-          "chainId": 8453,
-          "address": "0x8092ca384d44260ea4feaf7457b629b8dc6f88f0"
+          "chainId": 42161,
+          "address": "0x018282d5b510f00dcacb8f4a81c3901d2fc9da51"
         }
       ]
     }

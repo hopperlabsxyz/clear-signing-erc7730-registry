@@ -1,16 +1,16 @@
 {
   "$schema": "../../../specs/erc7730-v1.schema.json",
-  "includes": "../calldata-lagoon-v050-vaults.json",
+  "includes": "../calldata-lagoon-v060-vaults.json",
   "metadata": {
-    "owner": "9Summits",
+    "owner": "\u03c3-Labs",
     "info": {
-      "legalName": "9Summits",
-      "url": "https://9summits.io"
+      "legalName": "\u03c3-Labs",
+      "url": "https://www.sigmalabs.fi"
     },
     "constants": {
       "underlyingToken": "0xc02aaa39b223fe8d0a0e5c4f27ead9083c756cc2",
       "underlyingTicker": "WETH",
-      "vaultTicker": "turtleKatanaWETH"
+      "vaultTicker": "rcETH"
     }
   },
   "context": {
@@ -18,7 +18,7 @@
       "deployments": [
         {
           "chainId": 1,
-          "address": "0xbca723c30d55f0915e32019a95aa29ea21fd555c"
+          "address": "0x2746f31096f23670caf4043f8b30d8d02405a257"
         }
       ]
     }

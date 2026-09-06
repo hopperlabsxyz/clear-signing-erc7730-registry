@@ -2,15 +2,15 @@
   "$schema": "../../../specs/erc7730-v1.schema.json",
   "includes": "../calldata-lagoon-v060-vaults.json",
   "metadata": {
-    "owner": "DeTrade",
+    "owner": "1212 Capital",
     "info": {
-      "legalName": "DeTrade",
-      "url": "https://detrade.fund/"
+      "legalName": "1212 Capital",
+      "url": "https://www.1212.capital/"
     },
     "constants": {
       "underlyingToken": "0xa0b86991c6218b36c1d19d4a2e9eb0ce3606eb48",
       "underlyingTicker": "USDC",
-      "vaultTicker": "murmurrUSDCone"
+      "vaultTicker": "1212.Alpha"
     }
   },
   "context": {
@@ -18,7 +18,7 @@
       "deployments": [
         {
           "chainId": 1,
-          "address": "0x7d2c2f54792ad72cb834d298f542145b06b703cb"
+          "address": "0xc35ce0c1acfc448d18ddacbf641b09f2a18e1958"
         }
       ]
     }
