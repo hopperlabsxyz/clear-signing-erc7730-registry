@@ -2,15 +2,15 @@
   "$schema": "../../../specs/erc7730-v1.schema.json",
   "includes": "../calldata-lagoon-v050-vaults.json",
   "metadata": {
-    "owner": "DeTrade",
+    "owner": "MoneyFi",
     "info": {
-      "legalName": "DeTrade",
-      "url": "https://detrade.fund/"
+      "legalName": "MoneyFi",
+      "url": "https://moneyfi.fund/"
     },
     "constants": {
       "underlyingToken": "0x833589fcd6edb6e08f4c7c32d4f71b54bda02913",
       "underlyingTicker": "USDC",
-      "vaultTicker": "DTUSDC"
+      "vaultTicker": "mfUSDC"
     }
   },
   "context": {
@@ -18,7 +18,7 @@
       "deployments": [
         {
           "chainId": 8453,
-          "address": "0x8092ca384d44260ea4feaf7457b629b8dc6f88f0"
+          "address": "0x4efc07dca8697792119484af33549f33ab11bf3c"
         }
       ]
     }

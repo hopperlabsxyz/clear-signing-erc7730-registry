@@ -1,11 +1,11 @@
 {
   "$schema": "../../../specs/erc7730-v1.schema.json",
-  "includes": "../calldata-lagoon-v050-vaults.json",
+  "includes": "../calldata-lagoon-v060-vaults.json",
   "metadata": {
     "owner": "9Summits",
     "info": {
       "legalName": "9Summits",
-      "url": "https://www.9summits.io"
+      "url": "https://9summits.io"
     },
     "constants": {
       "underlyingToken": "0x1abaea1f7c830bd89acc67ec4af516284b1bc33c",

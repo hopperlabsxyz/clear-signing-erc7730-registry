@@ -1,16 +1,16 @@
 {
   "$schema": "../../../specs/erc7730-v1.schema.json",
-  "includes": "../calldata-lagoon-v050-vaults.json",
+  "includes": "../calldata-lagoon-v060-vaults.json",
   "metadata": {
-    "owner": "9Summits",
+    "owner": "DAMM Capital",
     "info": {
-      "legalName": "9Summits",
-      "url": "https://9summits.io"
+      "legalName": "DAMM Capital",
+      "url": "https://dammcap.finance/"
     },
     "constants": {
       "underlyingToken": "0x2260fac5e5542a773aa44fbcfedf7c193bc2c599",
       "underlyingTicker": "WBTC",
-      "vaultTicker": "turtleKatanaWBTC"
+      "vaultTicker": "DAMMbtc"
     }
   },
   "context": {
@@ -18,7 +18,7 @@
       "deployments": [
         {
           "chainId": 1,
-          "address": "0x423b469268b15821107c38d1e1f702877219bc52"
+          "address": "0x7ededf832b5c9d8afa8f7365936100581a6db756"
         }
       ]
     }

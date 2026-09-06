@@ -8,9 +8,9 @@
       "url": "https://rocksolid.network/"
     },
     "constants": {
-      "underlyingToken": "0xae78736cd615f374d3085123a210448e74fc6393",
-      "underlyingTicker": "rETH",
-      "vaultTicker": "rock.rETH"
+      "underlyingToken": "0xc02aaa39b223fe8d0a0e5c4f27ead9083c756cc2",
+      "underlyingTicker": "WETH",
+      "vaultTicker": "rock.loopedETH"
     }
   },
   "context": {
@@ -18,7 +18,7 @@
       "deployments": [
         {
           "chainId": 1,
-          "address": "0x936facdf10c8c36294e7b9d28345255539d81bc7"
+          "address": "0x7a12d4b719f5aa479ecd60defed909fb2a37e428"
         }
       ]
     }

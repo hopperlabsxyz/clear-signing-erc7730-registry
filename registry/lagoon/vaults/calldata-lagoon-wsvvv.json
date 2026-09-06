@@ -1,6 +1,6 @@
 {
   "$schema": "../../../specs/erc7730-v1.schema.json",
-  "includes": "../calldata-lagoon-v050-vaults.json",
+  "includes": "../calldata-lagoon-v060-vaults.json",
   "metadata": {
     "owner": "9Summits",
     "info": {
@@ -8,17 +8,17 @@
       "url": "https://9summits.io"
     },
     "constants": {
-      "underlyingToken": "0xb31f66aa3c1e785363f0875a1b74e27b85fd66c7",
-      "underlyingTicker": "WAVAX",
-      "vaultTicker": "turtleAvalancheAVAX"
+      "underlyingToken": "0xacfe6019ed1a7dc6f7b508c02d1b04ec88cc21bf",
+      "underlyingTicker": "VVV",
+      "vaultTicker": "wsVVV"
     }
   },
   "context": {
     "contract": {
       "deployments": [
         {
-          "chainId": 43114,
-          "address": "0x662e5efb6b31c5e0a130926dd3c2b78b1678bd08"
+          "chainId": 8453,
+          "address": "0x370f89ddd85ca2afcd2c891e67d10289d9d8d2d1"
         }
       ]
     }
