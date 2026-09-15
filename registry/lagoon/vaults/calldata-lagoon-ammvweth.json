@@ -2,15 +2,15 @@
   "$schema": "../../../specs/erc7730-v1.schema.json",
   "includes": "../calldata-lagoon-v050-vaults.json",
   "metadata": {
-    "owner": "9Summits",
+    "owner": "Ammalgam",
     "info": {
-      "legalName": "9Summits",
-      "url": "https://9summits.io"
+      "legalName": "Ammalgam",
+      "url": "https://ammalgam.xyz/"
     },
     "constants": {
       "underlyingToken": "0xc02aaa39b223fe8d0a0e5c4f27ead9083c756cc2",
       "underlyingTicker": "WETH",
-      "vaultTicker": "turtleKatanaWETH"
+      "vaultTicker": "ammVWETH"
     }
   },
   "context": {
@@ -18,7 +18,7 @@
       "deployments": [
         {
           "chainId": 1,
-          "address": "0xbca723c30d55f0915e32019a95aa29ea21fd555c"
+          "address": "0xbb211be8664128e30c6adcd5998eca9592be272f"
         }
       ]
     }
