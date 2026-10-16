@@ -2,10 +2,10 @@
   "$schema": "../../../specs/erc7730-v1.schema.json",
   "includes": "../calldata-lagoon-v050-vaults.json",
   "metadata": {
-    "owner": "Tulipa Capital",
+    "owner": "Rocksolid",
     "info": {
-      "legalName": "Tulipa Capital",
-      "url": "https://tulipa.capital"
+      "legalName": "Rocksolid",
+      "url": "https://rocksolid.network/"
     },
     "constants": {
       "underlyingToken": "0xae78736cd615f374d3085123a210448e74fc6393",
