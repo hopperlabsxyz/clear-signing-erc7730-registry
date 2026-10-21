@@ -1,0 +1,26 @@
+{
+  "$schema": "../../../specs/erc7730-v1.schema.json",
+  "includes": "../calldata-lagoon-v060-vaults.json",
+  "metadata": {
+    "owner": "722 Capital",
+    "info": {
+      "legalName": "722 Capital",
+      "url": "https://722.capital/"
+    },
+    "constants": {
+      "underlyingToken": "0xa0b86991c6218b36c1d19d4a2e9eb0ce3606eb48",
+      "underlyingTicker": "USDC",
+      "vaultTicker": "722C-USDC"
+    }
+  },
+  "context": {
+    "contract": {
+      "deployments": [
+        {
+          "chainId": 1,
+          "address": "0x7d798ce99ee2adc183a865d76b112810d5395ea2"
+        }
+      ]
+    }
+  }
+}

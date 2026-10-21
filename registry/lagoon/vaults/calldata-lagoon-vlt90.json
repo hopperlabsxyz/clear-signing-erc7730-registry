@@ -1,0 +1,26 @@
+{
+  "$schema": "../../../specs/erc7730-v1.schema.json",
+  "includes": "../calldata-lagoon-v060-vaults.json",
+  "metadata": {
+    "owner": "VOLTA90",
+    "info": {
+      "legalName": "VOLTA90",
+      "url": "https://volta90.trade/"
+    },
+    "constants": {
+      "underlyingToken": "0xa0b86991c6218b36c1d19d4a2e9eb0ce3606eb48",
+      "underlyingTicker": "USDC",
+      "vaultTicker": "VLT90"
+    }
+  },
+  "context": {
+    "contract": {
+      "deployments": [
+        {
+          "chainId": 1,
+          "address": "0x401550bc1ce4fb0ffdd86015f49142bbaad29ad8"
+        }
+      ]
+    }
+  }
+}

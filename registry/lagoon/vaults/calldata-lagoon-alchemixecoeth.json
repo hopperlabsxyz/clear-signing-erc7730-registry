@@ -1,0 +1,26 @@
+{
+  "$schema": "../../../specs/erc7730-v1.schema.json",
+  "includes": "../calldata-lagoon-v050-vaults.json",
+  "metadata": {
+    "owner": "Alchemix",
+    "info": {
+      "legalName": "Alchemix",
+      "url": "https://alchemix.fi/"
+    },
+    "constants": {
+      "underlyingToken": "0xc02aaa39b223fe8d0a0e5c4f27ead9083c756cc2",
+      "underlyingTicker": "WETH",
+      "vaultTicker": "alchemixEcoEth"
+    }
+  },
+  "context": {
+    "contract": {
+      "deployments": [
+        {
+          "chainId": 1,
+          "address": "0xa6e8d7871153d030c918a0ca5d33f90779967484"
+        }
+      ]
+    }
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "$schema": "../../../specs/erc7730-v1.schema.json",
+  "includes": "../calldata-lagoon-v060-vaults.json",
+  "metadata": {
+    "owner": "Mt Pelerin",
+    "info": {
+      "legalName": "Mt Pelerin",
+      "url": "https://www.mtpelerin.com"
+    },
+    "constants": {
+      "underlyingToken": "0xc02aaa39b223fe8d0a0e5c4f27ead9083c756cc2",
+      "underlyingTicker": "WETH",
+      "vaultTicker": "MtPool-ETH"
+    }
+  },
+  "context": {
+    "contract": {
+      "deployments": [
+        {
+          "chainId": 1,
+          "address": "0xb118de4917f4bac5c3a453ea8de915a7cd84891c"
+        }
+      ]
+    }
+  }
+}
