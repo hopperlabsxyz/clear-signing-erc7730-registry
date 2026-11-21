@@ -1,0 +1,26 @@
+{
+  "$schema": "../../../specs/erc7730-v1.schema.json",
+  "includes": "../calldata-lagoon-v060-vaults.json",
+  "metadata": {
+    "owner": "Mt Pelerin",
+    "info": {
+      "legalName": "Mt Pelerin",
+      "url": "https://www.mtpelerin.com"
+    },
+    "constants": {
+      "underlyingToken": "0xa0b86991c6218b36c1d19d4a2e9eb0ce3606eb48",
+      "underlyingTicker": "USDC",
+      "vaultTicker": "MtP-HLStrat"
+    }
+  },
+  "context": {
+    "contract": {
+      "deployments": [
+        {
+          "chainId": 1,
+          "address": "0x6abf7b760a40c4f015803cba3cd8b430e41fba7f"
+        }
+      ]
+    }
+  }
+}
