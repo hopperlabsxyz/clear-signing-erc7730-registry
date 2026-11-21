@@ -1,0 +1,26 @@
+{
+  "$schema": "../../../specs/erc7730-v1.schema.json",
+  "includes": "../calldata-lagoon-v060-vaults.json",
+  "metadata": {
+    "owner": "9Summits",
+    "info": {
+      "legalName": "9Summits",
+      "url": "https://9summits.io"
+    },
+    "constants": {
+      "underlyingToken": "0x3600000000000000000000000000000000000000",
+      "underlyingTicker": "USDC",
+      "vaultTicker": "9SicUSDC"
+    }
+  },
+  "context": {
+    "contract": {
+      "deployments": [
+        {
+          "chainId": 5042,
+          "address": "0x9b5126ad8cfdb216eaec3bd54a2ec3b01f742e27"
+        }
+      ]
+    }
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "$schema": "../../../specs/erc7730-v1.schema.json",
+  "includes": "../calldata-lagoon-v060-vaults.json",
+  "metadata": {
+    "owner": "Nova Markets",
+    "info": {
+      "legalName": "Nova Markets",
+      "url": "https://nova.markets"
+    },
+    "constants": {
+      "underlyingToken": "0xb88339cb7199b77e23db6e890353e22632ba630f",
+      "underlyingTicker": "USDC",
+      "vaultTicker": "sNLP"
+    }
+  },
+  "context": {
+    "contract": {
+      "deployments": [
+        {
+          "chainId": 999,
+          "address": "0xeeed7bb939d65938fe8f40dd898cd5942e32f09e"
+        }
+      ]
+    }
+  }
+}
