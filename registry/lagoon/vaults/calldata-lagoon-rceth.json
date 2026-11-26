@@ -1,0 +1,26 @@
+{
+  "$schema": "../../../specs/erc7730-v1.schema.json",
+  "includes": "../calldata-lagoon-v060-vaults.json",
+  "metadata": {
+    "owner": "\u03c3-Labs",
+    "info": {
+      "legalName": "\u03c3-Labs",
+      "url": "https://www.sigmalabs.fi"
+    },
+    "constants": {
+      "underlyingToken": "0xc02aaa39b223fe8d0a0e5c4f27ead9083c756cc2",
+      "underlyingTicker": "WETH",
+      "vaultTicker": "rcETH"
+    }
+  },
+  "context": {
+    "contract": {
+      "deployments": [
+        {
+          "chainId": 1,
+          "address": "0x2746f31096f23670caf4043f8b30d8d02405a257"
+        }
+      ]
+    }
+  }
+}
