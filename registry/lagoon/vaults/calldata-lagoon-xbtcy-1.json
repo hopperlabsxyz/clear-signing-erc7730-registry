@@ -1,0 +1,26 @@
+{
+  "$schema": "../../../specs/erc7730-v1.schema.json",
+  "includes": "../calldata-lagoon-v050-vaults.json",
+  "metadata": {
+    "owner": "Gami",
+    "info": {
+      "legalName": "Gami",
+      "url": "https://gamilabs.io/"
+    },
+    "constants": {
+      "underlyingToken": "0xcbb7c0000ab88b473b1f5afd9ef808440eed33bf",
+      "underlyingTicker": "cbBTC",
+      "vaultTicker": "xBTCY"
+    }
+  },
+  "context": {
+    "contract": {
+      "deployments": [
+        {
+          "chainId": 1,
+          "address": "0x57e6824a8b15b709cefb4ccef644ba1349057e77"
+        }
+      ]
+    }
+  }
+}
